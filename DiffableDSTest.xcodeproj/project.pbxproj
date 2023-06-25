@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		910DAF042A47245D0061A933 /* CustomCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910DAF032A47245D0061A933 /* CustomCellModel.swift */; };
+		910DAF062A4760990061A933 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910DAF052A4760990061A933 /* CustomCell.swift */; };
+		910DAF082A4760C10061A933 /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910DAF072A4760C10061A933 /* TableView.swift */; };
+		910DAF0A2A47647B0061A933 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910DAF092A47647B0061A933 /* Enums.swift */; };
+		910DAF0C2A4765E50061A933 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910DAF0B2A4765E50061A933 /* DataSource.swift */; };
+		910DAF0E2A4768030061A933 /* UITableViewDiffableDataSource+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910DAF0D2A4768030061A933 /* UITableViewDiffableDataSource+Extension.swift */; };
+		910DAF102A4768350061A933 /* SelectionOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910DAF0F2A4768350061A933 /* SelectionOptions.swift */; };
+		912F96872A45DD61009529FD /* TableTypeSafe+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912F96862A45DD61009529FD /* TableTypeSafe+Extensions.swift */; };
+		912F968D2A45DE69009529FD /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912F968C2A45DE69009529FD /* UITableView+Extension.swift */; };
 		91CB292A2A3F23AE00BF4EBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CB29292A3F23AE00BF4EBC /* AppDelegate.swift */; };
 		91CB292C2A3F23AE00BF4EBC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CB292B2A3F23AE00BF4EBC /* SceneDelegate.swift */; };
 		91CB292E2A3F23AE00BF4EBC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CB292D2A3F23AE00BF4EBC /* ViewController.swift */; };
@@ -16,6 +25,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		910DAF032A47245D0061A933 /* CustomCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCellModel.swift; sourceTree = "<group>"; };
+		910DAF052A4760990061A933 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		910DAF072A4760C10061A933 /* TableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
+		910DAF092A47647B0061A933 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		910DAF0B2A4765E50061A933 /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		910DAF0D2A4768030061A933 /* UITableViewDiffableDataSource+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewDiffableDataSource+Extension.swift"; sourceTree = "<group>"; };
+		910DAF0F2A4768350061A933 /* SelectionOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionOptions.swift; sourceTree = "<group>"; };
+		912F96862A45DD61009529FD /* TableTypeSafe+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TableTypeSafe+Extensions.swift"; sourceTree = "<group>"; };
+		912F968C2A45DE69009529FD /* UITableView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
 		91CB29262A3F23AD00BF4EBC /* DiffableDSTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiffableDSTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91CB29292A3F23AE00BF4EBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91CB292B2A3F23AE00BF4EBC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +81,15 @@
 				91CB29322A3F23AF00BF4EBC /* Assets.xcassets */,
 				91CB29342A3F23AF00BF4EBC /* LaunchScreen.storyboard */,
 				91CB29372A3F23AF00BF4EBC /* Info.plist */,
+				912F96862A45DD61009529FD /* TableTypeSafe+Extensions.swift */,
+				910DAF072A4760C10061A933 /* TableView.swift */,
+				912F968C2A45DE69009529FD /* UITableView+Extension.swift */,
+				910DAF032A47245D0061A933 /* CustomCellModel.swift */,
+				910DAF052A4760990061A933 /* CustomCell.swift */,
+				910DAF092A47647B0061A933 /* Enums.swift */,
+				910DAF0B2A4765E50061A933 /* DataSource.swift */,
+				910DAF0D2A4768030061A933 /* UITableViewDiffableDataSource+Extension.swift */,
+				910DAF0F2A4768350061A933 /* SelectionOptions.swift */,
 			);
 			path = DiffableDSTest;
 			sourceTree = "<group>";
@@ -139,8 +166,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				91CB292E2A3F23AE00BF4EBC /* ViewController.swift in Sources */,
+				910DAF042A47245D0061A933 /* CustomCellModel.swift in Sources */,
+				912F968D2A45DE69009529FD /* UITableView+Extension.swift in Sources */,
+				910DAF102A4768350061A933 /* SelectionOptions.swift in Sources */,
+				910DAF082A4760C10061A933 /* TableView.swift in Sources */,
 				91CB292A2A3F23AE00BF4EBC /* AppDelegate.swift in Sources */,
 				91CB292C2A3F23AE00BF4EBC /* SceneDelegate.swift in Sources */,
+				910DAF062A4760990061A933 /* CustomCell.swift in Sources */,
+				910DAF0A2A47647B0061A933 /* Enums.swift in Sources */,
+				910DAF0E2A4768030061A933 /* UITableViewDiffableDataSource+Extension.swift in Sources */,
+				910DAF0C2A4765E50061A933 /* DataSource.swift in Sources */,
+				912F96872A45DD61009529FD /* TableTypeSafe+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
